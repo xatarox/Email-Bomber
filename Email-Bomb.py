@@ -12,7 +12,8 @@ import sys
 server = input ('Server Mail: ')
 user = input('Username: ')
 passwd = input('Password: ')
-
+#passwd = getpass.getpass(prompt= 'Password: ') 
+#This one above makes the password invisible while you type it :)
 
 to = input('\nTo: ')
 subject = input('Subject: ') 
